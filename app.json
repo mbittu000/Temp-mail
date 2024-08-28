@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "temp",
+    "name": "Temp",
     "slug": "temp",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,12 +16,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mail.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mbittu00.temp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/mail.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6d36175f-139c-4343-bca8-2286f71a06ea"
+      }
     }
   }
 }
